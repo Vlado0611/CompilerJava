@@ -1,0 +1,8 @@
+LET
+    INTEGER n,x.
+IN
+    n := 5;
+    IF (n < 10) THEN x := 1; ELSE x := 10; FI;
+    WRITE(n);
+    WRITE(x);
+END

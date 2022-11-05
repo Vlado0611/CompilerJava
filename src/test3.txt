@@ -1,0 +1,15 @@
+LET
+	INTEGER x,y,z.
+IN	
+	x := 5;
+	y := 10;
+	z := x + y;
+	
+	READ x;
+	WRITE z-x;
+	x := z*y;
+	WHILE y<x
+	DO 
+	y := y + 5;
+	END;
+END

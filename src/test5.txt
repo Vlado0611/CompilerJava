@@ -1,0 +1,5 @@
+LET
+IN
+WRITE 5+4;
+IF (5 = 5) THEN WRITE 5;
+END

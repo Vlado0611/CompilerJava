@@ -1,0 +1,17 @@
+LET
+	INTEGER x,y,z.
+IN
+	WRITE x+y;
+	WRITE (x+y);
+	WHILE x>y
+	DO
+	x := x + 1;
+	IF (x+y > 10)
+	THEN 
+	SKIP;
+	ELSE
+	x := x + 2;
+	FI;
+	END;
+	a := 5;
+END
